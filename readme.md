@@ -1,5 +1,6 @@
 
 Email Notification in Red Hat Process Automation Manager 7
+
 Configuration
 The following one time configuration needs to be set so that we can configure socket binding and then the actual JNDI resource of mail session type. In this case we are assuming a gmail account, the following configuration was executed using the jboss-cli. 
 (note: to bring up the jboss cli on an EAP standalone, navigate to $JBoss_home/bin/jboss-cli.sh)
